@@ -18,16 +18,20 @@ Git; Yazılım projelerinde yapılan değişiklikleri takip etmeyi ve gerektiği
 **Temel Git Komutları**
 
 **init:** Bir klasörümüz var ve bu klasördeki değişiklikleri git ile takip etmek istiyoruz. Bunun için init kullanırız.  
-Aşağıdaki komut örneğinde mkdir ile klasor isimli bir klasör oluşturduk ve cd komutu ile klasöre yönlendik, bu klasörün içindeyken git init yazarak bu klasörü bir git deposuna çevirdik.  
+Aşağıdaki komut örneğinde mkdir ile klasor isimli bir klasör oluşturduk ve cd komutu ile klasöre yönlendik, bu klasörün içindeyken git init yazarak bu klasörü bir git deposuna çevirdik.
+![Açıklama](images/git init.png)
 
 **clone:** Dışarıdaki bir depoyu kopyalamak için clone komutunu kullanırız.  
-Aşağıdaki komut örneğinde git clone … .git diyerek tarayıcı üzerindeki bir depoyu kopyalamış, yani bilgisayarımıza indirmiş olduk.  
+Aşağıdaki komut örneğinde git clone … .git diyerek tarayıcı üzerindeki bir depoyu kopyalamış, yani bilgisayarımıza indirmiş olduk.
+![Açıklama](images/git clone.png)
 
 **add:** commit işlemi öncesi ekleme, değişiklik yapma vb. için kullanılan komuttur.  
 Aşağıdaki komut örneğinde git add … kullanarak bir ekleme işlemi gerçekleştirdik. Burada herhangi bir dosya, klasör vb. adı girmek yerine . yazarak tüm değişiklikleri eklemesini istediğimizi belirttik.  
+![Açıklama](images/git add.png)
 
 **commit:** Yaptığımız değişiklikleri git geçmişine kaydeder. Örneğin github üzerinden yapılan değişiklikler commit edilir ve bir commit mesajı yazmamız istenir.  
 Aşağıdaki komut örneğinde bu commitleme işlemini komut satırı üzerinden yapmış olduk ve -m “…” yazarak commit mesajımızı da iletmiş olduk. Bu sayede yapılan değişikliklerin takibi daha kolay ve sistematik hale geldi.  
+![Açıklama](images/git commit.png)
 
 **push:** Kelime anlamı “itmek” olan ve bilişim sistemlerinde ekleme anlamına gelen bir terimdir push’lamak. Yapılan değişiklikleri GitHub gibi bir uzak sunucuya göndermenin son adımıdır push işlemi.
 
@@ -69,7 +73,7 @@ Software Development Life Cycle (SDLC)
 **Bakım:** Yazılım yayımlandıktan sonra güncellemeler ve kullanıcıların dönütleri sonucunda gerekli düzeltmeler yapılır.
 
 **Agile metodolojisi:**
-
+![Açıklama](images/git agile.png)
 Agile metodolojisi günümüzde en meşhur ve yaygın yazılım geliştirme metedolojisidir. Esnek, tekrarlamalı ve müşteri odaklı bir yapsı vardır. Değişen ihtiyaçlara karşı daha iyi adapte olunmasını sağlar. Esnek olması sebebiyle 6 madde olarak kısıtlamak tam anlamıyla doğru olmasa da genel anlamda döngü şeklinde birbirini takip eden 6 adımdan oluşur.
 
 Planlama: Bu adımda, gereksinim analizi yapılır ve bu doğrultuda plan yapılır, yol haritası çizilir.
@@ -85,11 +89,11 @@ Yayınlama: Bu adımda, yazılım kullanıma açılır, kullancıya teslim edili
 Geri bildirim: Bu adımda, kullanıcılardan gelen geri bildirimler alınır ve değerlendirilir.
 
 **Scrum metodolojisi:**
-
+![Açıklama](images/git scrum.png)
 Scrum, Agile prensiplerini uygulamak için geliştirilmiş. Esnek bir proje yönetim framework’üdür. Scrum’un genel prensibi böl ve yönet’tir. Geniş ve karmaşık projeleri daha küçük ve yönetilebilir parçalara bölmeyi amaçlar. Agile felsefesi doğrultusunda, gereksinimler belirlenir, plan yapılır, ürün geliştirlmeye başlanır. Proje sprint denilen daha ufak parçalara bölünür, iş dağılımları yapılır. Ve bu şekilde ilerlenir. Periyodik toplantılar yapılarak iş takibi yapılır. Geliştirlen yazılım kullanıcıya sunulur ve dönütler doğrultusunda geliştirmeler yapılır.
 
 **Kanban metodolojisi:**
-
+![Açıklama](images/git kanban.jpg)
 Kanban, Scrum metedolojisine benzer bir şekilde, Agile metedolojisini uygulamak için geliştirilmiş bir yöntemdir. Kanban metedolojisi 1940’lı yıllarda Japon otomotiv devi Toyoto’da geliştirilmiştir ve kelime anlamı olarak “işaret kartı” anlamına gelir. Projeyi görselleştirmek amaçlanır. Kanban panosu genel anlamda şu 3 sütundan oluşur.  
 \- Yapılacaklar  
 \- Yapılıyor  
@@ -114,6 +118,7 @@ kullanıcılara çoklu dil desteği ve zengin kütüphanler sunarak, kullanıcı
 5) Web, mobil, masaüstü vb. farklı alanlarda kullanılabilir.
 
 **.NET Framework, .NET Core ve .NET 7/8+ farkları**
+![Açıklama](images/git .net.png)
 
 **.NET Framework nedir?**  
 2002 yılında Microsoft tarafından çıkarılan bir yazılım geliştirme platformudur. Fakat eski olması, yalnızca windows işletim sisteminde çalışması ve açık kaynaklı olmaması sebebiyle artık tercih edilmemektedir.
@@ -167,7 +172,7 @@ kullanıcılara çoklu dil desteği ve zengin kütüphanler sunarak, kullanıcı
 **arrow function (=>) ifadesinin C#’taki yeri**
 
 JavaScript’teki arrow function (=>) ifadesinin C#’taki karşılığı lambda expression (=>) ’dır. Lambda ifadesi kısa ve isimsiz fonksiyonlar tanımlamak için kullanılır. Aşağıda bir kod örneği ve açıklaması bulunmaktadır.  
-
+![Açıklama](images/git lambda işareti.png)
 Bu kodda Func&lt;int,int,int&gt; diyerek int tipinde 2 değer alıp int sonuç döndüren bir fonksiyon tanımladık ve a ile b değişkenlerini alan topla değişkeninin ardından => kullanarak isimsiz bir fonksiyon oluşturduk, ve sonuç olarak a+b işleminin sonucunu döndürdük. Bir alt satırda ise bu sonucu konsola yazdırdık.
 
 **3\. Backend Geliştirme Temelleri**
@@ -189,7 +194,7 @@ Backend, bir yazılım uygulamasının arka planda çalışan kısmıdır. Kulan
 Web sunucusu, bir web sitesinin kodunu ve verilerini barındıran bir sunucu yazılımıdır. URL, web sunucusunun adresini tutar. Bir URL’ye tıklandığında adres doğrultusunda web sunucusuna yönlendirme yapılır.
 
 **API nedir?**
-
+![Açıklama](images/git api.jpg)
 API (Uygulama Programlama Arayüzü), yazılımlar arası iletişimi sağlayan arayüzdür. İki yazılımın belirli kurallar ve protokoller doğrultusunda birbirleri ile iletişim kurmasını sağlar.
 
 **API türleri:** API türlerini Erişim türlerine göre 4 ve mimarilerine göre 4 olmak üzere 8 başlık altında toplayabiliriz.
@@ -272,6 +277,7 @@ ASP.NET Core’un ASP.NET’e göre avantajları aşağıdaki gibidir:
 **Farkları: Yukarıdaki** ASP.NET Core’un ASP.NET’e göre avantajlarından da görebileceğimiz üzere, ASP.NET Core ASP.NET’e göre pek çok açıdan daha avantajlıdır.
 
 **MVC nedir, ne için kullanılır?**
+![Açıklama](images/git mvc.jpg)
 
 MVC (Model View Controller), özellikle web geliştirmede kullanılan bir mimari modeldir. Uygulamanın yapısını 3 ayrı katmana ayırır. Bu katmanlar; Model, View ve Controller.
 
@@ -282,6 +288,7 @@ View katmanı: Kullanıcıya gösterilen kısımdır. Genellikle HTML, CSS ve Ja
 Controller katmanı: Kullanıcı ve sistem arasında arabulucu gibi çalışır. Verileri ileten, kararları alan, girdileri işleyen ve talimatları yönlendiren katmandır. Bilgisayardaki İşlemci’ye benzetilebilir.
 
 **Middleware nedir, nasıl çalışır?**
+![Açıklama](images/git middleware.png)
 
 Middleware’i bir denetleme katmanı olarak ifade edebiliriz. İstemci ve sunucu arasında veri akışını kontrol eder. Kullanıcının yetkili olup olmadığını kontrol eder. Hata tespiti yapar ve bu hataları loglar, yani hataları bir dosyaya kaydeder.
 
@@ -307,6 +314,7 @@ Dependency Injection, bir sınıfın ihtiyaç duyduğu bağımlılıkları, örn
 Veri tabanlarında veri çekmek, eklemek ve silmek için kullanılan bir programlama dilidir.
 
 **İlişkisel ve ilişkisel olmayan veri tabanları arasındaki farklar**
+![Açıklama](images/git sql.png)
 
 İlişkisel veritabanında, veriler satırlar ve sütunlar biçiminde tablolarda tutulur. Tablolar arasında ilişkiler kurulur. MySQL, Oracle gibi veritabanı sistemleri ilişkisel veritabanına örnektir.  
 İlişkisel olmayan veritabanında ise veriler dökümanlar halinde, grafikler halinde veya anahtar-değer biçiminde tutulur. Veriler yatay ölçeklenir. MongoDB, Redis gibi veritabanı sistemleri ilişkisel olmayan veritabanına örnektir.
@@ -348,6 +356,7 @@ Sorgu örneği: DELETE FROM Calisanlar WHERE Kat = 2;
 **6\. Güvenlik ve Performans**
 
 **Authentication vs Authorization nedir?**  
+![Açıklama](images/git aut.jpg)
 
 Authentication kimlik doğrulamadır. Kullanıcı adı – şifre, desen çizme, parmak izi ve yüz tanıma ile kullanıcı doğrulama yapar. Bu doğrulamayı veritabanına erişerek yapar, girilen şifre vb. ile veritabanındakinin uyuşup uyuşmadığını kontrol eder.
 
@@ -482,15 +491,20 @@ Yazılım Mimari Desenleri
 
 **Layered, Clean Architecture, Microservices, Event-Driven, Hexagonal Architecture (Ports & Adapters)**
 
-**Layered Architecture (Katmanlı Mimari)**: Uygulamayı sunum, iş mantığı, veri erişim gibi katmanlara ayırır. Basit yapılı projeler için uygundur, katmanlar arasında net sorumluluk ayrımı sağlar.  
+**Layered Architecture (Katmanlı Mimari)**: Uygulamayı sunum, iş mantığı, veri erişim gibi katmanlara ayırır. Basit yapılı projeler için uygundur, katmanlar arasında net sorumluluk ayrımı sağlar. 
+![Açıklama](images/git katmanlı mimari.png) 
 
-**Clean Architecture**: Bağımlılıkların içe doğru olduğu, iş kurallarının merkezde olduğu bir mimaridir. Test edilebilirlik ve sürdürülebilirlik gerektiren karmaşık projelerde tercih edilir.  
+**Clean Architecture**: Bağımlılıkların içe doğru olduğu, iş kurallarının merkezde olduğu bir mimaridir. Test edilebilirlik ve sürdürülebilirlik gerektiren karmaşık projelerde tercih edilir. 
+![Açıklama](images/git temiz mimari.png) 
 
 **Microservices (Mikroservisler)**: Büyük uygulamayı birbirinden bağımsız, küçük servisler olarak parçalara böler. Ölçeklenebilirlik ve bağımsız geliştirme gerekiyorsa uygundur.  
+![Açıklama](images/git mikroservis mimarisi.jpg)
 
 **Event-Driven Architecture (Olay Tabanlı Mimari)**: Sistem bileşenleri olaylara tepki verir ve birbirleriyle olay mesajları üzerinden iletişim kurar. Gevşek bağlı, esnek ve gerçek zamanlı uygulamalarda tercih edilir.  
+![Açıklama](images/git olay tabanlı.jpg)
 
 **Hexagonal Architecture (Ports & Adapters)**: Uygulamanın çekirdeğini dış dünya bağımlılıklarından soyutlar, giriş-çıkış adapterlarıyla iletişim sağlar. Test kolaylığı ve dış sistemlerle entegrasyon gerektiğinde kullanılır.  
+![Açıklama](images/git hexagonal mimari.png)
 
 **Hangi senaryoda hangi mimari tercih edilir?**
 

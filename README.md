@@ -19,7 +19,7 @@ Git; Yazılım projelerinde yapılan değişiklikleri takip etmeyi ve gerektiği
 
 **init:** Bir klasörümüz var ve bu klasördeki değişiklikleri git ile takip etmek istiyoruz. Bunun için init kullanırız.  
 Aşağıdaki komut örneğinde mkdir ile klasor isimli bir klasör oluşturduk ve cd komutu ile klasöre yönlendik, bu klasörün içindeyken git init yazarak bu klasörü bir git deposuna çevirdik.
-![Açıklama](images/git init.png)
+![Açıklama](images/git_init.png)
 
 **clone:** Dışarıdaki bir depoyu kopyalamak için clone komutunu kullanırız.  
 Aşağıdaki komut örneğinde git clone … .git diyerek tarayıcı üzerindeki bir depoyu kopyalamış, yani bilgisayarımıza indirmiş olduk.

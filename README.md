@@ -184,7 +184,7 @@ kullanıcılara çoklu dil desteği ve zengin kütüphanler sunarak, kullanıcı
 
 JavaScript’teki arrow function (=>) ifadesinin C#’taki karşılığı lambda expression (=>) ’dır. Lambda ifadesi kısa ve isimsiz fonksiyonlar tanımlamak için kullanılır. Aşağıda bir kod örneği ve açıklaması bulunmaktadır.  
 
-![Açıklama](images/lambda_işareti.png)
+![Açıklama](images/lamda_isareti.png)
 
 Bu kodda Func&lt;int,int,int&gt; diyerek int tipinde 2 değer alıp int sonuç döndüren bir fonksiyon tanımladık ve a ile b değişkenlerini alan topla değişkeninin ardından => kullanarak isimsiz bir fonksiyon oluşturduk, ve sonuç olarak a+b işleminin sonucunu döndürdük. Bir alt satırda ise bu sonucu konsola yazdırdık.
 
@@ -374,6 +374,7 @@ Sorgu örneği: DELETE FROM Calisanlar WHERE Kat = 2;
 **6\. Güvenlik ve Performans**
 
 **Authentication vs Authorization nedir?**  
+
 ![Açıklama](images/aut.jpg)
 
 Authentication kimlik doğrulamadır. Kullanıcı adı – şifre, desen çizme, parmak izi ve yüz tanıma ile kullanıcı doğrulama yapar. Bu doğrulamayı veritabanına erişerek yapar, girilen şifre vb. ile veritabanındakinin uyuşup uyuşmadığını kontrol eder.

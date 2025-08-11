@@ -9,7 +9,7 @@ Git; Yazılım projelerinde yapılan değişiklikleri takip etmeyi ve gerektiği
 **Yorum:** Yazılım projelerinde yapılan değişiklikleri takip etmeyi sağlar, kodun eski sürümlerini kaydeder ve istenildiğinde eski sürümlere geçiş yapılmasını sağlar. O nedenle Git vazgeçilmez bir sistemdir.
 
 **GitHub nedir?**
-**Git ile takip edilen yazılım projelerinin internet üzerinden saklanmasını, paylaşılmasını ve ekipler arasında iş birliği yapılmasını sağlayan bir platformdur. Proje dosyalarının yedeklenmesine olanak tanır ve geliştiricilerin kod üzerinde birlikte çalışmasını kolaylaştırır. Ayrıca kod gözden geçirme ve hata takibi gibi özellikler sunarak proje yönetimini daha verimli hale getirir.
+Git ile takip edilen yazılım projelerinin internet üzerinden saklanmasını, paylaşılmasını ve ekipler arasında iş birliği yapılmasını sağlayan bir platformdur. Proje dosyalarının yedeklenmesine olanak tanır ve geliştiricilerin kod üzerinde birlikte çalışmasını kolaylaştırır. Ayrıca kod gözden geçirme ve hata takibi gibi özellikler sunarak proje yönetimini daha verimli hale getirir.
 
 **Anahtar Kelimeler:** Kod takibi, Ekip çalışması, Depolama
 
@@ -27,8 +27,8 @@ Aşağıdaki komut örneğinde git clone … .git diyerek tarayıcı üzerindeki
 
 ![Açıklama](images/git_clone.png)
 
-**add:** commit işlemi öncesi ekleme, değişiklik yapma vb. için kullanılan komuttur.  
-Aşağıdaki komut örneğinde git add … kullanarak bir ekleme işlemi gerçekleştirdik. Burada herhangi bir dosya, klasör vb. adı girmek yerine . yazarak tüm değişiklikleri eklemesini istediğimizi belirttik.  
+**add:** Commit işlemi öncesi, commit edilecek değişikliklerin stage alanına alınıp alınmayacağını düzenlemek için kullanılan komuttur.
+Aşağıdaki komut örneğinde git add . kullanarak, herhangi bir dosya veya klasör adı belirtmek yerine mevcut tüm değişikliklerin stage alanına eklenmesini sağladık.
 
 ![Açıklama](images/git_add.png)
 

@@ -312,13 +312,15 @@ Middleware’i bir denetleme katmanı olarak ifade edebiliriz. İstemci ve sunuc
 **Worker, Backgorund Job nedir? Farkları**
 
 **Worker nedir?**  
-Worker arka planda çalışan bir işçi gibidir. İş kuyruğundaki işleri alır ve tamamlar.
+Worker, sürekli çalışan ve dinleme yapan bir işçi gibidir.
+Örneğin, bir RabbitMQ kuyruğunda makineden veri akar, normalde 10 veri gelmesi gerekirken 11 veri geldiğinde worker devreye girerek işlemi gerçekleştirir.
 
 **Background Job nedir?**  
-Background job, büyük ve uzun sürecek görevleri uygun şekilde arka planda çalıştırılcak şekilde planlar.
+Background job, zamanlanmış tek seferlik işlerdir.
+Örneğin, hafta sonu saat 2’de bakım yapılacaksa, 1 saat öncesinde bakım olacağını bildirmek için 3.000 kişiye mail göndermek bir background job’dur.
 
 **Farkları:**  
-Background job bir işi planlar, worker ise bu işi yürütür.
+Background job bir işi zamanlar, worker ise sürekli çalışarak gerektiğinde bu işleri yürütür.
 
 **Dependency Injection (DI) nedir, neden önemlidir?**
 

@@ -27,7 +27,7 @@ Aşağıdaki komut örneğinde git clone … .git diyerek tarayıcı üzerindeki
 
 ![Açıklama](images/git_clone.png)
 
-**add:** Commit işlemi öncesi, commit edilecek değişikliklerin stage alanına alınıp alınmayacağını düzenlemek için kullanılan komuttur.
+**add:** Commit işlemi öncesi, commit edilecek değişikliklerin stage alanına alınıp alınmayacağını düzenlemek için kullanılan komuttur. 
 Aşağıdaki komut örneğinde git add . kullanarak, herhangi bir dosya veya klasör adı belirtmek yerine mevcut tüm değişikliklerin stage alanına eklenmesini sağladık.
 
 ![Açıklama](images/git_add.png)
